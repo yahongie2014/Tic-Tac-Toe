@@ -12,7 +12,6 @@ export default function Home() {
     <div>
       <Head>
         <title>Tic-Tac-Toe</title>
-        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
         <meta
           name="facebook-domain-verification"
           content="wcnj19z22s6wock9qgbanshbqjzt1g"

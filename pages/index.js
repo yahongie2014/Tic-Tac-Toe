@@ -33,6 +33,22 @@ export default function Home() {
         <div className="container">
           {screen === "start" ? <Start /> : <Board />}
           <Model />
+          <br />
+          <div className="footer_content">
+            <p>
+              Copyright © {new Date().getFullYear()}. All rights reserved.{" "}
+              <br />
+              Developed by
+              <a
+                className="fn__link"
+                href="https://coder79.online/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Coder79
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </div>

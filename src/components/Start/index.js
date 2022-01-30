@@ -13,7 +13,7 @@ const Start = () => {
         <Oicon />
       </div>
       <div className="card shadow-gray">
-        <h1 className="text-lg">Pick player 1'st mark</h1>
+        <h1 className="text-lg">Pick player 1st mark</h1>
         <div className="start__players">
           <span
             className={activeUser === "x" ? "start__players--active" : ""}
@@ -35,7 +35,6 @@ const Start = () => {
           new game (vs CPU)
         </button>
         <button className="btn btn-blue" onClick={() => handleStart("user")}>
-          {" "}
           new game (vs Player)
         </button>
       </div>
